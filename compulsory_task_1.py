@@ -1,4 +1,10 @@
 class Course:
+    """
+    A class representing a course.
+    Attributes:
+        name (str): The name of the course.
+        contact_website (str): The website for course enquiries.
+    """
     name = "Fundamentals of Computer Science"
     contact_website = "www.hyperiondev.com"
 
@@ -9,6 +15,13 @@ class Course:
         print("The Head Office is located in Cape Town.")
 
 class OOPCourse(Course):
+    """
+    A class representing a specific OOP course, inheriting from generic
+    course class.
+    Attributes:
+        description (str): A brief description of the course.
+        trainer (str): The name of the course trainer.
+    """
     def __init__(self, description="OOP Fundementals", trainer="Mr Anon A. Mouse"):
         self.description = description
         self.trainer = trainer
