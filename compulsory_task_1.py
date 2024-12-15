@@ -17,9 +17,6 @@ class OOPCourse(Course):
         print(f"The course is about {self.description} and is presented by {self.trainer}.")
 
     def show_course_id(self):
-        print(f"The course is about {self.description} and is presented by {self.trainer}.")
-
-    def show_course_id(self):
         print("The course ID is #12345")
 
 
